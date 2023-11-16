@@ -11,7 +11,7 @@ class NetworkManager{
     static let shared = NetworkManager()
     private init() {}
     
-    private let apiKey = "b8c63c21547761fc6912dc6531bac0ff"
+    private let apiKey = "328c283cd27bd1877d9080ccb1604c91"
     public let baseAPIURL = "https://api.themoviedb.org/3"
     private let urlSession = URLSession.shared
     private let jsonDecoder = Utils.jsonDecoder
